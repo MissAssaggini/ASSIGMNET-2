@@ -1,10 +1,15 @@
-package jar;
+////////////////////////////////////////////////////////////////////
+// Arianna Piva 2076427
+// Nicholas Salmaso 2080038
+////////////////////////////////////////////////////////////////////
+package it.unipd.mtss;
 
 public class IntegerToRoman {
     
 public static String convert(int num){
-        if (num < 1 || num > 3999)
+        if (num < 1 || num > 3999) {
             throw new IllegalStateException("Numero fuori dal range");
+        }
         String s = "";
         while (num >= 1000) {
             s += "M";
