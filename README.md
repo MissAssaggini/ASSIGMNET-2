@@ -1,7 +1,206 @@
-////////////////////////////////////////////////////////////////////
-// Arianna Piva 2076427
-// Nicholas Salmaso 2080038
-////////////////////////////////////////////////////////////////////
+Arianna Piva 2076427
+Nicholas Salmaso 2080038
+
+Code Report-Jacoco
+<report name="roman-number">
+<sessioninfo id="LAPTOP-UUAA78CA-eb0c07cf" start="1716020407759" dump="1716020408428"/>
+<package name="it/unipd/mtss">
+<class name="it/unipd/mtss/IntegerToRoman" sourcefilename="IntegerToRoman.java">
+<method name="<init>" desc="()V" line="7">
+<counter type="INSTRUCTION" missed="0" covered="3"/>
+<counter type="LINE" missed="0" covered="1"/>
+<counter type="COMPLEXITY" missed="0" covered="1"/>
+<counter type="METHOD" missed="0" covered="1"/>
+</method>
+<method name="convert" desc="(I)Ljava/lang/String;" line="10">
+<counter type="INSTRUCTION" missed="0" covered="197"/>
+<counter type="BRANCH" missed="0" covered="30"/>
+<counter type="LINE" missed="0" covered="43"/>
+<counter type="COMPLEXITY" missed="0" covered="16"/>
+<counter type="METHOD" missed="0" covered="1"/>
+</method>
+<counter type="INSTRUCTION" missed="0" covered="200"/>
+<counter type="BRANCH" missed="0" covered="30"/>
+<counter type="LINE" missed="0" covered="44"/>
+<counter type="COMPLEXITY" missed="0" covered="17"/>
+<counter type="METHOD" missed="0" covered="2"/>
+<counter type="CLASS" missed="0" covered="1"/>
+</class>
+<class name="it/unipd/mtss/RomanPrinter" sourcefilename="RomanPrinter.java">
+<method name="<init>" desc="()V" line="8">
+<counter type="INSTRUCTION" missed="3" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+<counter type="COMPLEXITY" missed="1" covered="0"/>
+<counter type="METHOD" missed="1" covered="0"/>
+</method>
+<method name="print" desc="(I)Ljava/lang/String;" line="75">
+<counter type="INSTRUCTION" missed="0" covered="4"/>
+<counter type="LINE" missed="0" covered="1"/>
+<counter type="COMPLEXITY" missed="0" covered="1"/>
+<counter type="METHOD" missed="0" covered="1"/>
+</method>
+<method name="printAsciiArt" desc="(Ljava/lang/String;)Ljava/lang/String;" line="78">
+<counter type="INSTRUCTION" missed="5" covered="678"/>
+<counter type="BRANCH" missed="1" covered="9"/>
+<counter type="LINE" missed="1" covered="54"/>
+<counter type="COMPLEXITY" missed="1" covered="8"/>
+<counter type="METHOD" missed="0" covered="1"/>
+</method>
+<method name="<clinit>" desc="()V" line="11">
+<counter type="INSTRUCTION" missed="0" covered="190"/>
+<counter type="LINE" missed="0" covered="7"/>
+<counter type="COMPLEXITY" missed="0" covered="1"/>
+<counter type="METHOD" missed="0" covered="1"/>
+</method>
+<counter type="INSTRUCTION" missed="8" covered="872"/>
+<counter type="BRANCH" missed="1" covered="9"/>
+<counter type="LINE" missed="2" covered="62"/>
+<counter type="COMPLEXITY" missed="2" covered="10"/>
+<counter type="METHOD" missed="1" covered="3"/>
+<counter type="CLASS" missed="0" covered="1"/>
+</class>
+<sourcefile name="RomanPrinter.java">
+<line nr="8" mi="3" ci="0" mb="0" cb="0"/>
+<line nr="11" mi="0" ci="27" mb="0" cb="0"/>
+<line nr="20" mi="0" ci="27" mb="0" cb="0"/>
+<line nr="29" mi="0" ci="27" mb="0" cb="0"/>
+<line nr="38" mi="0" ci="27" mb="0" cb="0"/>
+<line nr="47" mi="0" ci="27" mb="0" cb="0"/>
+<line nr="56" mi="0" ci="27" mb="0" cb="0"/>
+<line nr="65" mi="0" ci="28" mb="0" cb="0"/>
+<line nr="75" mi="0" ci="4" mb="0" cb="0"/>
+<line nr="78" mi="0" ci="27" mb="0" cb="0"/>
+<line nr="79" mi="0" ci="11" mb="0" cb="2"/>
+<line nr="80" mi="0" ci="4" mb="0" cb="0"/>
+<line nr="82" mi="0" ci="2" mb="1" cb="7"/>
+<line nr="84" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="85" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="86" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="87" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="88" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="89" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="90" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="92" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="93" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="94" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="95" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="96" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="97" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="98" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="100" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="101" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="102" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="103" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="104" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="105" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="106" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="108" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="109" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="110" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="111" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="112" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="113" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="114" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="116" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="117" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="118" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="119" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="120" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="121" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="122" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="124" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="125" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="126" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="127" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="128" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="129" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="130" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="132" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="133" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="134" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="135" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="136" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="137" mi="0" ci="14" mb="0" cb="0"/>
+<line nr="138" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="140" mi="5" ci="0" mb="0" cb="0"/>
+<line nr="145" mi="0" ci="39" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="8" covered="872"/>
+<counter type="BRANCH" missed="1" covered="9"/>
+<counter type="LINE" missed="2" covered="62"/>
+<counter type="COMPLEXITY" missed="2" covered="10"/>
+<counter type="METHOD" missed="1" covered="3"/>
+<counter type="CLASS" missed="0" covered="1"/>
+</sourcefile>
+<sourcefile name="IntegerToRoman.java">
+<line nr="7" mi="0" ci="3" mb="0" cb="0"/>
+<line nr="10" mi="0" ci="6" mb="0" cb="4"/>
+<line nr="11" mi="0" ci="5" mb="0" cb="0"/>
+<line nr="13" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="14" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="15" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="16" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="18" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="19" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="20" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="22" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="23" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="24" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="26" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="27" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="28" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="30" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="31" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="32" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="34" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="35" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="36" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="38" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="39" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="40" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="42" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="43" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="44" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="46" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="47" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="48" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="50" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="51" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="52" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="54" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="55" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="56" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="58" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="59" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="60" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="62" mi="0" ci="3" mb="0" cb="2"/>
+<line nr="63" mi="0" ci="9" mb="0" cb="0"/>
+<line nr="64" mi="0" ci="2" mb="0" cb="0"/>
+<line nr="66" mi="0" ci="2" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="0" covered="200"/>
+<counter type="BRANCH" missed="0" covered="30"/>
+<counter type="LINE" missed="0" covered="44"/>
+<counter type="COMPLEXITY" missed="0" covered="17"/>
+<counter type="METHOD" missed="0" covered="2"/>
+<counter type="CLASS" missed="0" covered="1"/>
+</sourcefile>
+<counter type="INSTRUCTION" missed="8" covered="1072"/>
+<counter type="BRANCH" missed="1" covered="39"/>
+<counter type="LINE" missed="2" covered="106"/>
+<counter type="COMPLEXITY" missed="2" covered="27"/>
+<counter type="METHOD" missed="1" covered="5"/>
+<counter type="CLASS" missed="0" covered="2"/>
+</package>
+<counter type="INSTRUCTION" missed="8" covered="1072"/>
+<counter type="BRANCH" missed="1" covered="39"/>
+<counter type="LINE" missed="2" covered="106"/>
+<counter type="COMPLEXITY" missed="2" covered="27"/>
+<counter type="METHOD" missed="1" covered="5"/>
+<counter type="CLASS" missed="0" covered="2"/>
+</report>
+
+
+
+
 
 Processo di build:
 ﻿2024-05-18T07:47:33.7700950Z Current runner version: '2.316.1'

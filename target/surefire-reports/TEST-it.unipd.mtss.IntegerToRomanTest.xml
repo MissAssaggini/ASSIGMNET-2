@@ -1,59 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.001" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.076" tests="16" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="21"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number/target/test-classes:/home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number/target/classes:/home/nevoso/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/nevoso/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
-    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\pivaa\Desktop\assigmnet2\target\test-classes;C:\Users\pivaa\Desktop\assigmnet2\target\classes;C:\Users\pivaa\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\pivaa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="Unknown"/>
-    <property name="os.name" value="Linux"/>
-    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IT"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number/target/surefire/surefirebooter5482105424287781695.jar /home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number/target/surefire 2024-05-17T17-56-16_039-jvmRun1 surefire17008729919647919606tmp surefire_05709501887306090399tmp"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number/target/test-classes:/home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number/target/classes:/home/nevoso/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/nevoso/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\pivaa\AppData\Local\Temp\surefire5792224947529707007\surefirebooter3632262954162055465.jar C:\Users\pivaa\AppData\Local\Temp\surefire5792224947529707007 2024-05-18T10-51-09_019-jvmRun1 surefire3386988699500276440tmp surefire_06538832962119112285tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\pivaa\Desktop\assigmnet2\target\test-classes;C:\Users\pivaa\Desktop\assigmnet2\target\classes;C:\Users\pivaa\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\pivaa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/nevoso"/>
-    <property name="user.language" value="en"/>
+    <property name="user.home" value="C:\Users\pivaa"/>
+    <property name="user.language" value="it"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-01-16"/>
-    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="basedir" value="C:\Users\pivaa\Desktop\assigmnet2"/>
+    <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number/target/surefire/surefirebooter5482105424287781695.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\pivaa\AppData\Local\Temp\surefire5792224947529707007\surefirebooter3632262954162055465.jar;C:\\Users\\pivaa\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.5\\org.jacoco.agent-0.8.5-runtime.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="21.0.2+13-Ubuntu-122.04.1"/>
-    <property name="user.name" value="nevoso"/>
-    <property name="stdout.encoding" value="UTF-8"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.15.0-107-generic"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/nevoso/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="Unknown"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="21.0.2"/>
-    <property name="user.dir" value="/home/nevoso/Desktop/Uni/Mtts/ASSIGNMENT-2/roman-number"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="user.name" value="pivaa"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pivaa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pivaa\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="user.dir" value="C:\Users\pivaa\Desktop\assigmnet2"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Private Build"/>
-    <property name="java.vm.version" value="21.0.2+13-Ubuntu-122.04.1"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\pivaa\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\pivaa\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\Git\cmd;C:\Users\pivaa\Desktop\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\pivaa\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\pivaa\AppData\Local\Programs\Python\Python312;C:\Users\pivaa\AppData\Local\Programs\Python\Launcher;C:\Users\pivaa\AppData\Local\Microsoft\WindowsApps;C:\Users\pivaa\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="65.0"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test_CD" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="test_CD" classname="it.unipd.mtss.IntegerToRomanTest" time="0.006"/>
   <testcase name="test_CM" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="test_IV" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="test_IX" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
